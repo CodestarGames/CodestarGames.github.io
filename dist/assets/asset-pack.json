@@ -192,6 +192,13 @@
                 "key": "ok"
             },
             {
+                "url": [
+                    "assets/music/p2End.mp3"
+                ],
+                "type": "audio",
+                "key": "p2End"
+            },
+            {
                 "url": "assets/sprites/ui/petemetalslug.png",
                 "frameConfig": {
                     "frameWidth": 46,
@@ -469,6 +476,13 @@
                 "key": "title"
             },
             {
+                "url": [
+                    "assets/sounds/toasty.mp3"
+                ],
+                "type": "audio",
+                "key": "toasty"
+            },
+            {
                 "url": "assets/sprites/environment/wait.png",
                 "type": "image",
                 "key": "wait"
@@ -485,6 +499,23 @@
                 },
                 "type": "spritesheet",
                 "key": "wall-trap"
+            },
+            {
+                "url": "assets/sprites/environment/warning.png",
+                "type": "image",
+                "key": "warning"
+            },
+            {
+                "url": [
+                    "assets/sounds/warning.mp3"
+                ],
+                "type": "audio",
+                "key": "sfxWarning"
+            },
+            {
+                "url": "assets/sprites/environment/winText.png",
+                "type": "image",
+                "key": "winText"
             },
             {
                 "url": "assets/sprites/enemies/yuki.png",
