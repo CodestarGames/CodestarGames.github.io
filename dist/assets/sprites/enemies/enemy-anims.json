@@ -1,35 +1,58 @@
 {
     "anims": [
         {
-            "key": "anim-horseshoe-idle",
+            "key": "anim-moai-idle",
             "type": "frame",
             "frames": [
                 {
-                    "key": "horseshoe-idle",
+                    "key": "moai",
+                    "frame": 0,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "repeat": -1
+        },
+        {
+            "key": "anim-moai-shoot",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "moai",
+                    "frame": 1,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 24,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "anim-moai-turn",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "moai",
                     "frame": 0,
                     "duration": 0,
                     "keyframe": false
                 },
                 {
-                    "key": "horseshoe-idle",
-                    "frame": 1,
-                    "duration": 0,
-                    "keyframe": false
-                },
-                {
-                    "key": "horseshoe-idle",
+                    "key": "moai",
                     "frame": 2,
                     "duration": 0,
                     "keyframe": false
                 },
                 {
-                    "key": "horseshoe-idle",
+                    "key": "moai",
                     "frame": 3,
                     "duration": 0,
                     "keyframe": false
                 }
             ],
-            "frameRate": 12,
+            "frameRate": 1,
             "skipMissedFrames": true,
             "repeat": -1
         }

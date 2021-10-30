@@ -2,9 +2,34 @@
     "section1": {
         "files": [
             {
+                "url": "assets/sprites/enemies/5head.png",
+                "type": "image",
+                "key": "5head"
+            },
+            {
+                "url": "assets/sprites/enemies/5HeadEnd.png",
+                "type": "image",
+                "key": "5HeadEnd"
+            },
+            {
+                "url": "assets/sprites/enemies/5HeadMid.png",
+                "type": "image",
+                "key": "5HeadMid"
+            },
+            {
+                "url": "assets/sprites/enemies/5HeadStart.png",
+                "type": "image",
+                "key": "5HeadStart"
+            },
+            {
                 "url": "assets/sprites/enemies/abroad.png",
                 "type": "image",
                 "key": "abroad"
+            },
+            {
+                "url": "assets/tilemaps/ASOBG.png",
+                "type": "image",
+                "key": "ASOBG"
             },
             {
                 "url": "assets/sprites/environment/badluck.png",
@@ -40,6 +65,13 @@
                 "key": "bits-4"
             },
             {
+                "url": [
+                    "assets/sounds/CamBomb - Boss Level - looping - main.ogg"
+                ],
+                "type": "audio",
+                "key": "bossCambomb"
+            },
+            {
                 "url": "assets/sprites/ui/bullet.png",
                 "frameConfig": {
                     "frameWidth": 8,
@@ -51,6 +83,78 @@
                 },
                 "type": "spritesheet",
                 "key": "bullet"
+            },
+            {
+                "url": "assets/sprites/jinx/bullet_chris.png",
+                "type": "image",
+                "key": "bullet_abroad"
+            },
+            {
+                "url": "assets/sprites/jinx/bullet_missle_run.png",
+                "frameConfig": {
+                    "frameWidth": 12,
+                    "frameHeight": 10,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "bullet_missle_run"
+            },
+            {
+                "url": "assets/sprites/jinx/bullet_rpgenius.png",
+                "type": "image",
+                "key": "bullet_rpgenius"
+            },
+            {
+                "url": "assets/sprites/jinx/bullet_zewdoo.png",
+                "type": "image",
+                "key": "bullet_zewdoo"
+            },
+            {
+                "url": "assets/sprites/ui/cambomb_music_-_logo.png",
+                "type": "image",
+                "key": "cambomb_logo"
+            },
+            {
+                "url": [
+                    "assets/music/CamBomb_-_ASO_Too_Much_Volcano_-_Chiptune_-_No_Lyrics.mp3"
+                ],
+                "type": "audio",
+                "key": "cambombASO8BitMusic"
+            },
+            {
+                "url": [
+                    "assets/music/CamBomb - Too Much Volcano.ogg"
+                ],
+                "type": "audio",
+                "key": "cambombASOAlt"
+            },
+            {
+                "url": [
+                    "assets/music/CamBomb - Gradius Fire Scramble - looping - main - wrapped remainder codestar1.mp3"
+                ],
+                "type": "audio",
+                "key": "cambombFireScramble"
+            },
+            {
+                "url": "assets/sprites/ui/character_select_text.png",
+                "type": "image",
+                "key": "character_select_text"
+            },
+            {
+                "url": "assets/sprites/jinx/characterSelect.png",
+                "frameConfig": {
+                    "frameWidth": 240,
+                    "frameHeight": 48,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "characterSelect"
             },
             {
                 "url": "assets/sprites/enemies/clover-idle.png",
@@ -71,6 +175,11 @@
                 "key": "codestarLogo"
             },
             {
+                "url": "assets/sprites/ui/continue.png",
+                "type": "image",
+                "key": "continue"
+            },
+            {
                 "url": "assets/sprites/enemies/dotdecore.png",
                 "type": "image",
                 "key": "dotdecore"
@@ -88,8 +197,8 @@
             {
                 "url": "assets/sprites/environment/fireball.png",
                 "frameConfig": {
-                    "frameWidth": 16,
-                    "frameHeight": 16,
+                    "frameWidth": 8,
+                    "frameHeight": 8,
                     "startFrame": 0,
                     "endFrame": -1,
                     "spacing": 0,
@@ -97,6 +206,28 @@
                 },
                 "type": "spritesheet",
                 "key": "fireball"
+            },
+            {
+                "url": "assets/sprites/ui/GameOver.png",
+                "type": "image",
+                "key": "GameOver"
+            },
+            {
+                "url": "assets/sprites/environment/grundleFreezeBG.png",
+                "type": "image",
+                "key": "grundleFreezeBG"
+            },
+            {
+                "url": [
+                    "assets/music/grundleFreezeCambomb.mp3"
+                ],
+                "type": "audio",
+                "key": "grundleFreezeCambomb"
+            },
+            {
+                "url": "assets/tilemaps/grundleTileset.png",
+                "type": "image",
+                "key": "grundleTileset"
             },
             {
                 "url": "assets/sprites/enemies/horseshoe-idle.png",
@@ -148,6 +279,11 @@
                 "key": "jinx-run"
             },
             {
+                "url": "assets/sprites/enemies/kleebenEnemyTurret.png",
+                "type": "image",
+                "key": "kleebenEnemyTurret"
+            },
+            {
                 "url": "assets/sprites/enemies/kupo-moogle.png",
                 "type": "image",
                 "key": "kupo-moogle"
@@ -163,9 +299,85 @@
                 "key": "KupoCoin-sm"
             },
             {
+                "url": "assets/sprites/jinx/laserBody.png",
+                "type": "image",
+                "key": "laserBody"
+            },
+            {
+                "url": "assets/sprites/jinx/laserCap.png",
+                "type": "image",
+                "key": "laserCap"
+            },
+            {
+                "url": "assets/tilemaps/level1ASO.json",
+                "type": "tilemapTiledJSON",
+                "key": "level1ASO"
+            },
+            {
+                "url": "assets/tilemaps/level2Grundle.json",
+                "type": "tilemapTiledJSON",
+                "key": "level2Grundle"
+            },
+            {
+                "url": "assets/tilemaps/level3Marbles.json",
+                "type": "tilemapTiledJSON",
+                "key": "level3Marbles"
+            },
+            {
+                "url": "assets/sprites/enemies/marble.png",
+                "type": "image",
+                "key": "marble"
+            },
+            {
+                "url": "assets/sprites/items/marbles.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "marbles"
+            },
+            {
+                "url": "assets/sprites/environment/marbleSkyboxBG.png",
+                "type": "image",
+                "key": "marbleSkyboxBG"
+            },
+            {
+                "url": "assets/tilemaps/marblesTileset.png",
+                "type": "image",
+                "key": "marblesTileset"
+            },
+            {
+                "url": "assets/sprites/enemies/moai.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 64,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "moai"
+            },
+            {
                 "url": "assets/sprites/enemies/mudan.png",
                 "type": "image",
                 "key": "mudan"
+            },
+            {
+                "url": "assets/sprites/enemies/mudanShip.png",
+                "type": "image",
+                "key": "mudanShip"
+            },
+            {
+                "url": "assets/sprites/enemies/mugBoss.png",
+                "type": "image",
+                "key": "mugBoss"
             },
             {
                 "url": [
@@ -187,9 +399,32 @@
                 "key": "nathan"
             },
             {
+                "url": "assets/sprites/enemies/natsukiHead.png",
+                "type": "image",
+                "key": "natsukiHead"
+            },
+            {
+                "url": "assets/sprites/ui/no.png",
+                "type": "image",
+                "key": "no"
+            },
+            {
                 "url": "assets/sprites/environment/ok.png",
                 "type": "image",
                 "key": "ok"
+            },
+            {
+                "url": "assets/sprites/jinx/option_dot.png",
+                "frameConfig": {
+                    "frameWidth": 112,
+                    "frameHeight": 112,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "option_dot"
             },
             {
                 "url": [
@@ -321,6 +556,11 @@
                 "key": "powerup-ui-6"
             },
             {
+                "url": "assets/sprites/enemies/premier-beaker.png",
+                "type": "image",
+                "key": "premier-beaker"
+            },
+            {
                 "url": "assets/sprites/enemies/premier-cage.png",
                 "type": "image",
                 "key": "premier-cage"
@@ -361,12 +601,22 @@
                 "key": "premierBG"
             },
             {
+                "url": "assets/sprites/environment/premierPause.png",
+                "type": "image",
+                "key": "premierPause"
+            },
+            {
+                "url": "assets/sprites/environment/premierPause1.png",
+                "type": "image",
+                "key": "premierPause1"
+            },
+            {
                 "url": "assets/sprites/jinx/premierShip.png",
                 "frameConfig": {
-                    "frameWidth": 93,
-                    "frameHeight": 80,
+                    "frameWidth": 31,
+                    "frameHeight": 20,
                     "startFrame": 0,
-                    "endFrame": 5,
+                    "endFrame": -1,
                     "spacing": 0,
                     "margin": 0
                 },
@@ -374,14 +624,89 @@
                 "key": "premierShip"
             },
             {
+                "url": "assets/sprites/jinx/premierShipChris.png",
+                "frameConfig": {
+                    "frameWidth": 31,
+                    "frameHeight": 20,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "premierShipChris"
+            },
+            {
+                "url": "assets/sprites/jinx/premierShipDot.png",
+                "frameConfig": {
+                    "frameWidth": 31,
+                    "frameHeight": 20,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "premierShipDot"
+            },
+            {
+                "url": "assets/sprites/jinx/premierShipIan.png",
+                "frameConfig": {
+                    "frameWidth": 31,
+                    "frameHeight": 20,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "premierShipIan"
+            },
+            {
+                "url": "assets/sprites/jinx/premierShipRpgenius.png",
+                "frameConfig": {
+                    "frameWidth": 31,
+                    "frameHeight": 20,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "premierShipRpgenius"
+            },
+            {
                 "url": "assets/sprites/ui/PremierTendo.png",
                 "type": "image",
                 "key": "PremierTendo"
             },
             {
+                "url": "assets/tilemaps/premierTileset.png",
+                "type": "image",
+                "key": "premierTileset"
+            },
+            {
                 "url": "assets/sprites/ui/pressStart.png",
                 "type": "image",
                 "key": "pressStart"
+            },
+            {
+                "url": "assets/sprites/environment/reallyreallygrooven.gif",
+                "type": "image",
+                "key": "reallyreallygrooven"
+            },
+            {
+                "url": "assets/sprites/environment/reallyreallygrooven.png",
+                "frameConfig": {
+                    "frameWidth": 200,
+                    "frameHeight": 200,
+                    "startFrame": 0,
+                    "endFrame": 50,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "reallyreallygrooven_1"
             },
             {
                 "url": "assets/sprites/enemies/rpg-pete.png",
@@ -400,10 +725,59 @@
             },
             {
                 "url": [
+                    "assets/music/cambomb_-_select_your_ship.mp3"
+                ],
+                "type": "audio",
+                "key": "select_your_ship"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxAfterBurner.wav"
+                ],
+                "type": "audio",
+                "key": "sfxAfterBurner"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxCarnage.mp3"
+                ],
+                "type": "audio",
+                "key": "sfxCarnage"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxCharacterSelect.wav"
+                ],
+                "type": "audio",
+                "key": "sfxCharacterSelect"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxCharacterSelected.wav"
+                ],
+                "type": "audio",
+                "key": "sfxCharacterSelected"
+            },
+            {
+                "url": [
                     "assets/sounds/sfxCoin.wav"
                 ],
                 "type": "audio",
                 "key": "sfxCoin"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxCupheadFail.wav"
+                ],
+                "type": "audio",
+                "key": "sfxCupheadFail"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxDamage.wav"
+                ],
+                "type": "audio",
+                "key": "sfxDamage"
             },
             {
                 "url": [
@@ -421,6 +795,34 @@
             },
             {
                 "url": [
+                    "assets/sounds/sfxGroundQuakes.wav"
+                ],
+                "type": "audio",
+                "key": "sfxGroundQuakes"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxLaser.wav"
+                ],
+                "type": "audio",
+                "key": "sfxLaser"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxMyGod.mp3"
+                ],
+                "type": "audio",
+                "key": "sfxMyGod"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxPause.wav"
+                ],
+                "type": "audio",
+                "key": "sfxPause"
+            },
+            {
+                "url": [
                     "assets/sounds/sfxPlayerExplode.wav"
                 ],
                 "type": "audio",
@@ -432,6 +834,20 @@
                 ],
                 "type": "audio",
                 "key": "sfxPowerUp"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxPowerUp_old.wav"
+                ],
+                "type": "audio",
+                "key": "sfxPowerUp_old"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxPowerUpActivate.wav"
+                ],
+                "type": "audio",
+                "key": "sfxPowerUpActivate"
             },
             {
                 "url": [
@@ -448,14 +864,37 @@
                 "key": "sfxShoot"
             },
             {
+                "url": [
+                    "assets/sounds/sfxSpecial.wav"
+                ],
+                "type": "audio",
+                "key": "sfxSpecial"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxTakeoff.wav"
+                ],
+                "type": "audio",
+                "key": "sfxTakeoff"
+            },
+            {
+                "url": [
+                    "assets/sounds/sfxVolcano.wav"
+                ],
+                "type": "audio",
+                "key": "sfxVolcano"
+            },
+            {
+                "url": [
+                    "assets/sounds/warning.mp3"
+                ],
+                "type": "audio",
+                "key": "sfxWarning"
+            },
+            {
                 "url": "assets/sprites/enemies/shane.png",
                 "type": "image",
                 "key": "shane"
-            },
-            {
-                "url": "assets/sprites/enemies/ship.png",
-                "type": "image",
-                "key": "ship"
             },
             {
                 "url": "assets/sprites/environment/shootText.png",
@@ -469,6 +908,11 @@
                 },
                 "type": "spritesheet",
                 "key": "shootText"
+            },
+            {
+                "url": "assets/sprites/items/sub-powerup.png",
+                "type": "image",
+                "key": "sub-powerup"
             },
             {
                 "url": "assets/sprites/ui/title.png",
@@ -488,34 +932,31 @@
                 "key": "wait"
             },
             {
-                "url": "assets/sprites/enemies/wall-trap.png",
-                "frameConfig": {
-                    "frameWidth": 16,
-                    "frameHeight": 16,
-                    "startFrame": 0,
-                    "endFrame": -1,
-                    "spacing": 0,
-                    "margin": 0
-                },
-                "type": "spritesheet",
-                "key": "wall-trap"
-            },
-            {
                 "url": "assets/sprites/environment/warning.png",
                 "type": "image",
                 "key": "warning"
             },
             {
-                "url": [
-                    "assets/sounds/warning.mp3"
-                ],
-                "type": "audio",
-                "key": "sfxWarning"
+                "url": "assets/sprites/environment/warpBG.png",
+                "type": "image",
+                "key": "warpBG"
             },
             {
                 "url": "assets/sprites/environment/winText.png",
                 "type": "image",
                 "key": "winText"
+            },
+            {
+                "url": [
+                    "assets/sounds/yahoo.wav"
+                ],
+                "type": "audio",
+                "key": "yahoo"
+            },
+            {
+                "url": "assets/sprites/ui/yes.png",
+                "type": "image",
+                "key": "yes"
             },
             {
                 "url": "assets/sprites/enemies/yuki.png",
